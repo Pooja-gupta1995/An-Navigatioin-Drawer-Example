@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Police assistance">
+        <menu>
+        <item
+            android:id="@+id/nav_problem"
+            android:icon="@drawable/problem"
+            android:title="share your problem" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/history"
+            android:title="view problem history" />
+        <item
+            android:id="@+id/nav_verification"
+            android:icon="@drawable/verification"
+            android:title="Tenant or servant verification" />
+        </menu>
+    </item>
+    <item android:title="Citizens awareness schemes">
+        <menu>
+            <item
+                android:id="@+id/nav_register"
+                android:icon="@drawable/register"
+                android:title="Register for various schemes" />
+            <item
+                android:id="@+id/nav_tips"
+                android:icon="@drawable/tips"
+                android:title="Safety tips" />
+        </menu>
+    </item>
+
+
+<item android:title="Contact us">
+<menu>
+    <item
+        android:id="@+id/nav_contact"
+        android:icon="@drawable/contact"
+        android:title="Helpline Directory" />
+    <item
+        android:id="@+id/nav_app"
+        android:icon="@drawable/app"
+        android:title="Other apps" />
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/about"
+        android:title="About us" />
+</menu>
+</item>
+
+</menu>
